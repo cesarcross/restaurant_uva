@@ -7,3 +7,11 @@ export const CarouselContainer = styled.div`
     font-size: 2rem;
   }
 `;
+
+export const CarouselImage = styled.div`
+  border: 2px solid green;
+
+  img {
+    width: 100%;
+  }
+`;
