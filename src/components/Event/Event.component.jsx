@@ -1,10 +1,16 @@
 import React from "react";
 
-import { EventContainer } from "./Event.style";
+import { EventContainer, Title, Image, Button } from "./Event.style";
+
+import event1 from "../../assets/images/event1.png";
 
 const Event = () => (
   <EventContainer>
-    <h3>Eventos</h3>
+    <Title>Eventos & Festas</Title>
+    <Image>
+      <img src={event1} alt="" />
+    </Image>
+    <Button>Reservar para Evento</Button>
   </EventContainer>
 );
 

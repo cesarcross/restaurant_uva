@@ -1,10 +1,14 @@
 import React from "react";
 
-import { CarouselContainer } from "./Carousel.style";
+import { CarouselContainer, CarouselImage } from "./Carousel.style";
+
+import featured1 from "../../assets/images/featured1.png";
 
 const Carousel = () => (
   <CarouselContainer>
-    <h3>Eventos</h3>
+    <CarouselImage>
+      <img src={featured1} alt="" />
+    </CarouselImage>
   </CarouselContainer>
 );
 
