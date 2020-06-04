@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
   border: 2px solid green;
@@ -10,6 +10,24 @@ export const ContactContainer = styled.div`
 `;
 
 export const Form = styled.div`
+  input,
+  textarea {
+    display: flex;
+    border-radius: 15px;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    border: none;
+  }
+
+  input:last-of-type {
+    background: #6ccfa7;
+    color: #242f62;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+
   border: 2px solid green;
 
   h3 {
@@ -21,6 +39,7 @@ export const Map = styled.div`
   border: 2px solid green;
 
   img {
-    width: 100%;
+    margin: 20px auto;
+    width: 90%;
   }
 `;
