@@ -17,6 +17,10 @@ export const Navbar = styled(NavbarBootstrap)`
     width: 52px;
     margin-left: 10px;
   }
+
+  @media screen and (min-width: 992px) {
+    /* display: none; */
+  }
 `;
 
 export const Nav = styled(NavItem)`

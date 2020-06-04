@@ -42,14 +42,14 @@ const NavbarDefault = ({ showCarousel, setShowCarousel }) => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={FacebookIcon} alt="" srcset="" />
+              <img src={FacebookIcon} alt="" />
             </a>
             <a
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={InstagramIcon} alt="" srcset="" />
+              <img src={InstagramIcon} alt="" />
             </a>
           </Nav.Item>
         </Nav>
