@@ -4,7 +4,7 @@ import { EventContainer, Title, Image, Button } from './Event.style';
 
 import event1 from '../../assets/images/event1.png';
 
-import eventbutton from '../../assets/images/eventbutton.png';
+// import eventbutton from '../../assets/images/eventbutton.png';
 
 const Event = () => (
   <EventContainer>
@@ -20,8 +20,8 @@ const Event = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      {/* <WhatsappIcon /> */}
-      <img src={eventbutton} alt="" />
+      <h3>Faça sua Reserva</h3>
+      {/* <img src={eventbutton} alt="" /> */}
     </Button>
   </EventContainer>
 );

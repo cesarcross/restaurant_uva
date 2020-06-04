@@ -1,13 +1,31 @@
 import styled from 'styled-components';
 
-// import { FaWhatsapp } from 'react-icons/fa';
-
 export const MenuContainer = styled.div`
   border: 2px solid green;
 
   @media screen and (min-width: 768px) {
-    font-size: 2rem;
+    display: flex;
+    margin: 20px auto;
   }
+`;
+
+export const Container1 = styled.div`
+  border: 2px solid orange;
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
+`;
+
+export const Container2 = styled.div`
+  border: 2px solid orange;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
+`;
+
+export const Sub1 = styled.div`
+  border: 2px solid orange;
 `;
 
 export const MenuTitle = styled.h3`
@@ -28,6 +46,15 @@ export const MenuText = styled.p`
   margin: auto 20px;
   text-align: left;
 `;
+
+export const Sub2 = styled.div`
+  border: 2px solid orange;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+`;
+
 export const DeliveryText = styled.div`
   border: 2px solid green;
 
@@ -55,21 +82,8 @@ export const Ifood = styled.a`
 `;
 
 export const Whatsapp = styled.a`
-  /* width: 100px; */
-  /* height: 40px; */
-  /* padding: 8px; */
   margin-left: 20px;
 `;
-
-// export const WhatsappIcon = styled(FaWhatsapp)`
-//   color: #fff;
-//   background: #009846;
-//   border-radius: 15px;
-//   width: 100px;
-//   height: 40px;
-//   padding: 8px;
-//   margin-left: 20px;
-// `;
 
 export const MenuImage = styled.div`
   border: 2px solid green;
