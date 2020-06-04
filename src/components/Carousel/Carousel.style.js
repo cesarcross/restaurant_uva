@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const CarouselContainer = styled.div`
   /* border: 2px solid yellow; */
+  display: ${({ showCarousel }) => (showCarousel ? '' : 'none')};
 
   @media screen and (min-width: 768px) {
-    /* font-size: 2rem; */
   }
 `;
 

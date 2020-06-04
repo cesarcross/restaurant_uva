@@ -4,8 +4,8 @@ import { CarouselContainer, CarouselImage, Text } from './Carousel.style';
 
 import featured1 from '../../assets/images/featured1.png';
 
-const Carousel = () => (
-  <CarouselContainer>
+const Carousel = ({ showCarousel }) => (
+  <CarouselContainer showCarousel={showCarousel}>
     <CarouselImage>
       <img src={featured1} alt="" />
       <Text>
