@@ -10,7 +10,7 @@ const NavbarDefault = ({ showCarousel, setShowCarousel }) => (
   <NavbarContainer>
     <Navbar
       // bg="light"
-      expand="lg"
+      expand="md"
     >
       <Navbar.Brand>
         <img src={LogoIcon} alt="" />
