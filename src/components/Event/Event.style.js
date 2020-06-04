@@ -4,7 +4,8 @@ export const EventContainer = styled.div`
   border: 2px solid green;
 
   @media screen and (min-width: 768px) {
-    font-size: 2rem;
+    width: 80%;
+    margin: 30px auto;
   }
 `;
 
@@ -29,7 +30,19 @@ export const Image = styled.div`
 `;
 
 export const Button = styled.a`
-  img {
-    margin: 20px auto;
+  h3 {
+    background: #6ccfa7;
+    color: #242f62;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 15px;
   }
+
+  /* img {
+    margin: 20px auto;
+  } */
 `;

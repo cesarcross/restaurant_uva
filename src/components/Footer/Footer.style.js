@@ -5,7 +5,7 @@ export const FooterContainer = styled.div`
   color: #67267a;
 
   @media screen and (min-width: 768px) {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
 `;
 

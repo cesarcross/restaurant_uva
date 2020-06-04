@@ -5,11 +5,13 @@ export const ContactContainer = styled.div`
   background: #3b2670;
 
   @media screen and (min-width: 768px) {
-    font-size: 2rem;
+    /* display: flex; */
   }
 `;
 
 export const Form = styled.div`
+  margin: 30px auto;
+
   input,
   textarea {
     display: flex;
@@ -33,6 +35,10 @@ export const Form = styled.div`
   h3 {
     color: #fff;
   }
+
+  @media screen and (min-width: 768px) {
+    /* width: 50%; */
+  }
 `;
 
 export const Map = styled.div`
@@ -41,5 +47,10 @@ export const Map = styled.div`
   img {
     margin: 20px auto;
     width: 90%;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 80%;
+    margin: 0 auto;
   }
 `;
