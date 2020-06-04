@@ -11,6 +11,11 @@ export const FooterContainer = styled.div`
 
 export const Logo = styled.div`
   border: 2px solid green;
+
+  img {
+    width: 85px;
+    margin: 25px auto 10px;
+  }
 `;
 
 export const Text = styled.p`
@@ -19,4 +24,5 @@ export const Text = styled.p`
 
 export const Caravan = styled.p`
   border: 2px solid green;
+  margin: 30px auto;
 `;

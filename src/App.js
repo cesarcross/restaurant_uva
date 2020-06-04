@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './App.css';
 
@@ -10,16 +10,20 @@ import Event from './components/Event/Event.component';
 import Contact from './components/Contact/Contact.component';
 import Footer from './components/Footer/Footer.component';
 
-const App = () => (
-  <div className="App">
-    <Navbar />
-    <Carousel />
-    <Menu />
-    <About />
-    <Event />
-    <Contact />
-    <Footer />
-  </div>
-);
+const App = () => {
+  const [showCarousel, setShowCarousel] = useState(true);
+
+  return (
+    <div className="App">
+      <Navbar showCarousel={showCarousel} setShowCarousel={setShowCarousel} />
+      <Carousel showCarousel={showCarousel} />
+      <Menu />
+      <About />
+      <Event />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
