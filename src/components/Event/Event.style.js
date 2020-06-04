@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const EventContainer = styled.div`
   border: 2px solid green;
@@ -11,6 +11,13 @@ export const EventContainer = styled.div`
 export const Title = styled.h3`
   border: 2px solid green;
   color: #67267a;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 1.5rem;
+
+  span {
+    display: block;
+  }
 `;
 
 export const Image = styled.div`
@@ -21,9 +28,8 @@ export const Image = styled.div`
   }
 `;
 
-export const Button = styled.button`
-  border-radius: 15px;
-  background: #6ccfa7;
-  color: #242f62;
-  font-size: 1.2rem;
+export const Button = styled.a`
+  img {
+    margin: 20px auto;
+  }
 `;

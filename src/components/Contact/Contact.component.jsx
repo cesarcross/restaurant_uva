@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { ContactContainer, Form, Map } from "./Contact.style";
+import { ContactContainer, Form, Map } from './Contact.style';
 
-import map from "../../assets/images/map.png";
+import map from '../../assets/images/map.png';
 
 const Contact = () => (
   <ContactContainer>
@@ -27,8 +27,8 @@ const Contact = () => (
           rows="10"
           placeholder="Escreva sua mensagem"
         />
-        <input name="_formsubmit_id" type="text" style={{ display: "none" }} />
-        <input type="submit" value="Enviar" />
+        <input name="_formsubmit_id" type="text" style={{ display: 'none' }} />
+        <input type="submit" value="Enviar Pedido" />
       </form>
     </Form>
     <Map>
