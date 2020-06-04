@@ -2,54 +2,65 @@ import React from 'react';
 
 import { Navbar, Nav } from './Navbar.style';
 import { NavbarContainer } from './Navbar.style';
-import LogoIcon from '../../assets/images/logo_mob.png';
-import FacebookIcon from '../../assets/images/facebook_mob.png';
-import InstagramIcon from '../../assets/images/instagram_mob.png';
+import LogoMobile from '../../assets/images/logo_mob.png';
+import Logo from '../../assets/images/logo.png';
+import FacebookMobileIcon from '../../assets/images/facebook_mob.png';
+import InstagramMobileIcon from '../../assets/images/instagram_mob.png';
+import FacebookIcon from '../../assets/images/facebook.png';
+import InstagramIcon from '../../assets/images/instagram.png';
 
 const NavbarDefault = ({ showCarousel, setShowCarousel }) => (
   <NavbarContainer>
-    <Navbar
-      // bg="light"
-      expand="lg"
-    >
+    <Navbar expand="md">
       <Navbar.Brand>
-        <img src={LogoIcon} alt="" />
+        <img className="logo-mobile" src={LogoMobile} alt="" />
+        <img className="logo" src={Logo} alt="" />
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"
         onClick={() => setShowCarousel(!showCarousel)}
       />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           <Nav.Item className="first-nav-item">
-            <button>Home</button>
+            <button>
+              Home<span className="bar">|</span>
+            </button>
           </Nav.Item>
           <Nav.Item>
-            <button>Cardápio</button>
+            <button>
+              Cardápio<span className="bar">|</span>
+            </button>
           </Nav.Item>
           <Nav.Item>
-            <button>Sobre</button>
+            <button>
+              Sobre<span className="bar">|</span>
+            </button>
           </Nav.Item>
           <Nav.Item>
-            <button>Equipe</button>
+            <button>
+              Equipe<span className="bar">|</span>
+            </button>
           </Nav.Item>
           <Nav.Item className="last-nav-item">
             <button>Contato</button>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="icons-container">
             <a
               href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={FacebookIcon} alt="" />
+              <img className="icon-mobile" src={FacebookMobileIcon} alt="" />
+              <img className="icon fb" src={FacebookIcon} alt="" />
             </a>
             <a
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={InstagramIcon} alt="" />
+              <img className="icon-mobile" src={InstagramMobileIcon} alt="" />
+              <img className="icon inst" src={InstagramIcon} alt="" />
             </a>
           </Nav.Item>
         </Nav>
