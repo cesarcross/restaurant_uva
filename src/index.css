@@ -1,26 +1,25 @@
 @font-face {
-  font-family: "Brevia";
+  font-family: 'Brevia-semibold';
   src: url(./fonts/brevia-semibold.otf);
-  font-weight: semibold;
 }
 
 @font-face {
-  font-family: "Brevia";
+  font-family: 'Brevia-light';
   src: url(./fonts/brevia-light.otf);
-  font-weight: light;
 }
 
 body {
   margin: 0;
-  font-family: "Brevia", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Brevia-light', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   font-weight: light;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f6f6f8;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

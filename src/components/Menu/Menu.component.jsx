@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   MenuContainer,
@@ -6,13 +6,15 @@ import {
   MenuText,
   MenuDelivery,
   MenuImage,
-} from "./Menu.style";
+} from './Menu.style';
 
-import menu from "../../assets/images/menu.png";
+import menu from '../../assets/images/menu.png';
 
 const Menu = () => (
   <MenuContainer>
-    <MenuTitle>Frescos & Orgânicos</MenuTitle>
+    <MenuTitle>
+      <span>Frescos</span>& Orgânicos
+    </MenuTitle>
     <MenuText>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis
       enim sed mi fringilla malesuada. Morbi lobortis enim sed mi fringilla
