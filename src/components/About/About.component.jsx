@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   AboutContainer,
@@ -10,15 +10,17 @@ import {
   AboutText2,
   AboutDiv1,
   AboutDiv2,
-} from "./About.style";
+} from './About.style';
 
-import about1 from "../../assets/images/about1.png";
-import about2 from "../../assets/images/about2.png";
+import about1 from '../../assets/images/about1.png';
+import about2 from '../../assets/images/about2.png';
 
 const About = () => (
   <AboutContainer>
     <AboutDiv1>
-      <AboutTitle>Sonho & Dedicação</AboutTitle>
+      <AboutTitle>
+        <span>Sonho</span>& Dedicação
+      </AboutTitle>
       <AboutText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis
         enim sed mi fringilla malesuada. Morbi lobortis enim sed mi fringilla
@@ -31,7 +33,9 @@ const About = () => (
       </AboutImage>
     </AboutDiv1>
     <AboutDiv2>
-      <AboutTitle2>Família e Tradição</AboutTitle2>
+      <AboutTitle2>
+        <span>Família</span>& Tradição
+      </AboutTitle2>
       <AboutText2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis
         enim sed mi fringilla malesuada. Morbi lobortis enim sed mi fringilla

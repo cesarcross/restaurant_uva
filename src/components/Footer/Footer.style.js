@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
   border: 2px solid green;
+  color: #67267a;
 
   @media screen and (min-width: 768px) {
     font-size: 2rem;

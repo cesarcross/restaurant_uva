@@ -1,16 +1,28 @@
-import React from "react";
+import React from 'react';
 
-import { EventContainer, Title, Image, Button } from "./Event.style";
+import { EventContainer, Title, Image, Button } from './Event.style';
 
-import event1 from "../../assets/images/event1.png";
+import event1 from '../../assets/images/event1.png';
+
+import eventbutton from '../../assets/images/eventbutton.png';
 
 const Event = () => (
   <EventContainer>
-    <Title>Eventos & Festas</Title>
+    <Title>
+      <span>Eventos</span>& Festas
+    </Title>
     <Image>
       <img src={event1} alt="" />
     </Image>
-    <Button>Reservar para Evento</Button>
+
+    <Button
+      href="https://www.thefork.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {/* <WhatsappIcon /> */}
+      <img src={eventbutton} alt="" />
+    </Button>
   </EventContainer>
 );
 

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   border: 2px solid green;
@@ -15,6 +15,14 @@ export const AboutDiv1 = styled.div`
 export const AboutTitle = styled.h3`
   border: 2px solid green;
   color: white;
+  font-size: 1.5rem;
+  /* font-weight: bolder; */
+  text-align: left;
+  margin-left: 20px;
+
+  span {
+    display: block;
+  }
 `;
 
 export const AboutText = styled.p`
@@ -38,6 +46,14 @@ export const AboutDiv2 = styled.div`
 export const AboutTitle2 = styled.h3`
   border: 2px solid green;
   color: #67267a;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  text-align: left;
+  margin-left: 20px;
+
+  span {
+    display: block;
+  }
 `;
 
 export const AboutText2 = styled.p`
