@@ -15,6 +15,7 @@ export const Navbar = styled(NavbarBootstrap)`
 
   img {
     width: 52px;
+    margin-left: 10px;
   }
 `;
 
@@ -35,5 +36,12 @@ export const Nav = styled(NavItem)`
 
   .last-nav-item {
     margin-bottom: 50px;
+  }
+
+  a {
+    img {
+      width: 37px;
+      margin-bottom: 30px;
+    }
   }
 `;

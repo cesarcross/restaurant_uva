@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import { FooterContainer, Logo, Text, Caravan } from "./Footer.style";
+import { FooterContainer, Logo, Text, Caravan } from './Footer.style';
+import LogoIcon from '../../assets/images/logo_mob.png';
 
 const Footer = () => (
   <FooterContainer>
     <Logo>
-      <img src="" alt="" />
+      <img src={LogoIcon} alt="" />
     </Logo>
     <Text>Todos os Direitos Reservados</Text>
     <Caravan>
-      Desenvolvido por{" "}
+      Desenvolvido por{' '}
       <a
         href="https://www.codecaravan.com.br"
         target="_blank"

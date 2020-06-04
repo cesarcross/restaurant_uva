@@ -2,7 +2,9 @@ import React from 'react';
 
 import { Navbar, Nav } from './Navbar.style';
 import { NavbarContainer } from './Navbar.style';
-import LogoIcon from '../../assets/images/uva.png';
+import LogoIcon from '../../assets/images/logo_mob.png';
+import FacebookIcon from '../../assets/images/facebook_mob.png';
+import InstagramIcon from '../../assets/images/instagram_mob.png';
 
 const NavbarDefault = ({ showCarousel, setShowCarousel }) => (
   <NavbarContainer>
@@ -33,6 +35,22 @@ const NavbarDefault = ({ showCarousel, setShowCarousel }) => (
           </Nav.Item>
           <Nav.Item className="last-nav-item">
             <button>Contato</button>
+          </Nav.Item>
+          <Nav.Item>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={FacebookIcon} alt="" srcset="" />
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={InstagramIcon} alt="" srcset="" />
+            </a>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
