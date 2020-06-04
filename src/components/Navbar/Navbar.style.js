@@ -75,19 +75,22 @@ export const Nav = styled(NavItem)`
 
     button {
       color: #67267a;
-      margin-top: 50px;
-
-      &:last-of-type {
-        margin-right: 20px;
-      }
+      margin: 60px 0 auto;
 
       span {
-        /* display: inline; */
+        display: inline;
+        margin-left: 15px;
       }
     }
 
     .nav-item {
       margin: 0;
+    }
+
+    .last-nav-item {
+      button {
+        margin-right: 20px;
+      }
     }
 
     a {
