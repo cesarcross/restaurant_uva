@@ -45,10 +45,9 @@ export const Nav = styled(NavItem)`
     background: transparent;
     border: none;
     margin: 5px;
-
-    span {
-      display: none;
-    }
+  }
+  span {
+    display: none;
   }
 
   .first-nav-item {
@@ -76,11 +75,10 @@ export const Nav = styled(NavItem)`
     button {
       color: #67267a;
       margin: 60px 0 auto;
-
-      span {
-        display: inline;
-        margin-left: 15px;
-      }
+    }
+    span {
+      display: inline;
+      margin: 0 15px;
     }
 
     .nav-item {
