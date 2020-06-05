@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 `;
 
 export const AboutDiv1 = styled.div`
@@ -13,18 +13,29 @@ export const AboutDiv1 = styled.div`
 `;
 
 export const Sub1 = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   @media screen and (min-width: 768px) {
     width: 50%;
   }
+
+  @media screen and (min-width: 992px) {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 600px;
+  }
 `;
 
 export const AboutTitle = styled.h3`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   color: white;
   font-size: 1.5rem;
-  /* font-weight: bolder; */
+  width: 210px;
   text-align: left;
   margin-left: 20px;
 
@@ -35,10 +46,14 @@ export const AboutTitle = styled.h3`
   @media screen and (min-width: 768px) {
     margin-top: 20px;
   }
+
+  @media screen and (min-width: 992px) {
+    margin-top: 0;
+  }
 `;
 
 export const AboutText = styled.p`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   color: white;
   font-size: 0.7rem;
 
@@ -49,18 +64,33 @@ export const AboutText = styled.p`
 `;
 
 export const Sub2 = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   @media screen and (min-width: 768px) {
     width: 50%;
   }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 600px;
+  }
 `;
 
 export const AboutImage = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   img {
     width: 100%;
+  }
+
+  @media screen and (min-width: 992px) {
+    height: 500px;
+    display: flex;
+
+    img {
+      width: 500px;
+      align-self: center;
+      margin: 0 auto;
+    }
   }
 `;
 
@@ -70,13 +100,33 @@ export const AboutDiv2 = styled.div`
   @media screen and (min-width: 768px) {
     display: flex;
   }
+
+  @media screen and (min-width: 992px) {
+    p {
+      width: 350px;
+    }
+
+    h3,
+    p {
+      margin: 0 30px 8px 50px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+
+    h3,
+    p {
+      margin-left: 100px;
+    }
+  }
 `;
 
 export const AboutTitle2 = styled.h3`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   color: #67267a;
   font-size: 1.5rem;
-  /* font-weight: bold; */
+  width: 201px;
   text-align: left;
   margin-left: 20px;
 
@@ -86,25 +136,42 @@ export const AboutTitle2 = styled.h3`
 
   @media screen and (min-width: 768px) {
     margin-top: 20px;
+    font-size: 2rem;
+  }
+
+  @media screen and (min-width: 992px) {
+    margin-bottom: 8px;
   }
 `;
 
 export const AboutText2 = styled.p`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   color: white;
   font-size: 0.7rem;
 
   @media screen and (min-width: 768px) {
     margin: 0 20px;
     text-align: left;
+    font-size: 1rem;
   }
 `;
 
 export const AboutImage2 = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   img {
     width: 100%;
+  }
+
+  @media screen and (min-width: 992px) {
+    height: 500px;
+    display: flex;
+
+    img {
+      width: 500px;
+      align-self: center;
+      margin: 0 auto;
+    }
   }
 `;
 
@@ -115,8 +182,36 @@ export const AboutDiv3 = styled.div`
   @media screen and (min-width: 768px) {
     display: flex;
 
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
     img {
       margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    p {
+      width: 350px;
+    }
+
+    h3,
+    p {
+      margin-left: 50px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+
+    h3,
+    p {
+      margin-left: 150px;
     }
   }
 `;

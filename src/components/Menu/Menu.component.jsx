@@ -30,12 +30,11 @@ const Menu = () => (
         <MenuText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
           lobortis enim sed mi fringilla malesuada. Morbi lobortis enim sed mi
-          fringilla malesuada. Lorem ipsum dolor sit amet,consectetur adipiscing
-          elit. Morbi lobortis enim sed mi fringilla malesuada. Morbi lobortis
-          enim sed mi fringilla malesuada.
+          fringilla malesuada. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Morbi lobortis enim
         </MenuText>
         <DeliveryText>
-          <h3>Peça Agora!</h3>
+          <h3>Peça agora!</h3>
         </DeliveryText>
         <DeliveryContainer>
           <Whatsapp
