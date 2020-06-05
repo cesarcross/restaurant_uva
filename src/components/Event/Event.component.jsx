@@ -13,6 +13,8 @@ import {
 import event1 from '../../assets/images/event1.png';
 import event2 from '../../assets/images/event2.png';
 import event3 from '../../assets/images/event3.png';
+import event4 from '../../assets/images/event4.png';
+import event5 from '../../assets/images/event5.png';
 
 // import eventbutton from '../../assets/images/eventbutton.png';
 
@@ -47,7 +49,10 @@ const Event = () => {
               <img src={event3} alt="" />
             </CarouselItem>
             <CarouselItem>
-              <img src={event2} alt="" />
+              <img src={event4} alt="" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src={event5} alt="" />
             </CarouselItem>
           </Slider>
         </SliderContainer>
