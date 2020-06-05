@@ -24,9 +24,9 @@ export const Container2 = styled.div`
   }
 `;
 
-export const Sub1 = styled.div`
-  border: 2px solid orange;
-`;
+// export const Sub1 = styled.div`
+//   border: 2px solid orange;
+// `;
 
 export const MenuTitle = styled.h3`
   border: 2px solid green;
@@ -41,9 +41,10 @@ export const MenuTitle = styled.h3`
     display: block;
   }
 `;
+
 export const MenuText = styled.p`
   border: 2px solid green;
-  margin: auto 20px;
+  margin: auto 20px 0.5rem;
   text-align: left;
 `;
 
@@ -57,13 +58,16 @@ export const Sub2 = styled.div`
 
 export const DeliveryText = styled.div`
   border: 2px solid green;
+  margin: auto 20px 0.5rem;
+  width: 150px;
+  text-align: left;
 
   h3 {
     font-family: 'Brevia-semibold';
     font-size: 1.2rem;
-    width: 145px;
-    margin-left: 20px;
-    text-align: left;
+    /* width: 145px; */
+    /* margin-left: 20px; */
+    /* text-align: left; */
     color: #67267a;
   }
 `;
