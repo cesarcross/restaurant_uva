@@ -38,7 +38,7 @@ export const Container2 = styled.div`
 
 export const MenuTitle = styled.h3`
   /* border: 2px solid green; */
-  font-family: 'Brevia-semibold';
+  font-weight: 700;
   font-size: 1.5rem;
   width: 200px;
   text-align: left;
@@ -73,7 +73,7 @@ export const DeliveryText = styled.div`
   text-align: left;
 
   h3 {
-    font-family: 'Brevia-semibold';
+    font-weight: 700;
     font-size: 1.2rem;
     color: #67267a;
   }

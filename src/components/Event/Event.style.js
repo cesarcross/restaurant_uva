@@ -58,7 +58,7 @@ export const Button = styled.a`
     background: #6ccfa7;
     color: #242f62;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
     justify-content: center;
     width: 80%;
     margin: 15px auto;

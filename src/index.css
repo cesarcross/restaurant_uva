@@ -1,19 +1,11 @@
-@font-face {
-  font-family: 'Brevia-semibold';
-  src: url(./fonts/brevia-semibold.otf);
-}
-
-@font-face {
-  font-family: 'Brevia-light';
-  src: url(./fonts/brevia-light.otf);
-}
+@import url('https://use.typekit.net/kia5ztv.css');
 
 body {
   margin: 0;
-  font-family: 'Brevia-light', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', sans-serif;
-  font-weight: light;
+  font-family: 'brevia', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f6f6f8;
