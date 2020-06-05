@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   color: #67267a;
 
   @media screen and (min-width: 768px) {
@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const Logo = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   img {
     width: 85px;
@@ -19,10 +19,10 @@ export const Logo = styled.div`
 `;
 
 export const Text = styled.p`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 `;
 
 export const Caravan = styled.p`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 30px auto;
 `;

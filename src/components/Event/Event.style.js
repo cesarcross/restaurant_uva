@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const EventContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   @media screen and (min-width: 768px) {
     width: 80%;
@@ -10,7 +10,7 @@ export const EventContainer = styled.div`
 `;
 
 export const Title = styled.h3`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   color: #67267a;
   text-align: left;
   margin-left: 20px;
@@ -22,7 +22,7 @@ export const Title = styled.h3`
 `;
 
 export const Image = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   img {
     width: 100%;
@@ -41,8 +41,4 @@ export const Button = styled.a`
     padding: 10px;
     border-radius: 15px;
   }
-
-  /* img {
-    margin: 20px auto;
-  } */
 `;

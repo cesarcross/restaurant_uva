@@ -14,6 +14,7 @@ import {
   AboutDiv1,
   AboutDiv2,
   AboutDiv3,
+  // WidthMax,
 } from './About.style';
 
 import about1 from '../../assets/images/about1.png';
@@ -30,9 +31,8 @@ const About = () => (
           <AboutText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             lobortis enim sed mi fringilla malesuada. Morbi lobortis enim sed mi
-            fringilla malesuada. Lorem ipsum dolor sit amet,consectetur
-            adipiscing elit. Morbi lobortis enim sed mi fringilla malesuada.
-            Morbi lobortis enim sed mi fringilla malesuada.
+            fringilla malesuada. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Morbi.
           </AboutText>
         </Sub1>
         <Sub2>
@@ -54,13 +54,13 @@ const About = () => (
           <AboutText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             lobortis enim sed mi fringilla malesuada. Morbi lobortis enim sed mi
-            fringilla malesuada. Lorem ipsum dolor sit amet,consectetur
-            adipiscing elit. Morbi lobortis enim sed mi fringilla malesuada.
-            Morbi lobortis enim sed mi fringilla malesuada.
+            fringilla malesuada. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Morbi.
           </AboutText>
         </Sub1>
       </AboutDiv3>
       <AboutDiv2>
+        {/* <WidthMax> */}
         <Sub1>
           <AboutTitle2>
             <span>Família</span>& Tradição
@@ -68,9 +68,8 @@ const About = () => (
           <AboutText2>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             lobortis enim sed mi fringilla malesuada. Morbi lobortis enim sed mi
-            fringilla malesuada. Lorem ipsum dolor sit amet,consectetur
-            adipiscing elit. Morbi lobortis enim sed mi fringilla malesuada.
-            Morbi lobortis enim sed mi fringilla malesuada.
+            fringilla malesuada. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Morbi.
           </AboutText2>
         </Sub1>
         <Sub2>
@@ -78,26 +77,8 @@ const About = () => (
             <img src={about2} alt="" />
           </AboutImage2>
         </Sub2>
+        {/* </WidthMax> */}
       </AboutDiv2>
-      {/* <AboutDiv3>
-      <Sub1>
-        <AboutTitle2>
-          <span>Família</span>& Tradição
-        </AboutTitle2>
-        <AboutText2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          lobortis enim sed mi fringilla malesuada. Morbi lobortis enim sed mi
-          fringilla malesuada. Lorem ipsum dolor sit amet,consectetur adipiscing
-          elit. Morbi lobortis enim sed mi fringilla malesuada. Morbi lobortis
-          enim sed mi fringilla malesuada.
-        </AboutText2>
-      </Sub1>
-      <Sub2>
-        <AboutImage2>
-          <img src={about2} alt="" />
-        </AboutImage2>
-      </Sub2>
-    </AboutDiv3> */}
     </AboutContainer>
   </Element>
 );
