@@ -1,19 +1,57 @@
 import styled from 'styled-components';
 
 export const CarouselContainer = styled.div`
-  /* border: 2px solid yellow; */
   display: ${({ showCarousel }) => (showCarousel ? '' : 'none')};
-
-  @media screen and (min-width: 768px) {
-  }
 `;
 
-export const CarouselImage = styled.div`
-  /* border: 2px solid green; */
-  position: relative;
+export const MobileImage = styled.div`
+  border: 2px solid green;
 
   img {
     width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+`;
+
+export const SliderContainer = styled.div`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+
+    .slick-slider {
+      margin: 0 45px;
+
+      .slick-arrow::before {
+        color: #67267a;
+        opacity: 1;
+      }
+
+      .slick-dots {
+        padding-bottom: 10px;
+
+        button::before {
+          font-size: 1rem;
+          color: #67267a;
+          opacity: 1;
+        }
+
+        .slick-active {
+          button::before {
+            color: #6dcfa8;
+          }
+        }
+      }
+    }
+  }
+`;
+
+export const CarouselItem = styled.div`
+  img {
+    height: 370px;
   }
 `;
 

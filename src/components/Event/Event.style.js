@@ -11,6 +11,7 @@ export const EventContainer = styled.div`
 
 export const Title = styled.h3`
   /* border: 2px solid green; */
+  width: 150px;
   color: #67267a;
   text-align: left;
   margin-left: 20px;
@@ -21,11 +22,34 @@ export const Title = styled.h3`
   }
 `;
 
-export const Image = styled.div`
+export const SliderContainer = styled.div`
+  .slick-slider {
+    margin: 0 45px;
+
+    .slick-arrow::before {
+      color: #67267a;
+      opacity: 1;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    /* display: block; */
+  }
+`;
+
+export const CarouselItem = styled.div`
   /* border: 2px solid green; */
 
   img {
-    width: 100%;
+    height: 255px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    img {
+      height: auto;
+      width: 150px;
+    }
   }
 `;
 
