@@ -40,7 +40,7 @@ export const Nav = styled(NavItem)`
   background: #67267a;
 
   button {
-    font-family: 'Brevia-semibold';
+    font-weight: 500;
     color: #fff;
     background: transparent;
     border: none;

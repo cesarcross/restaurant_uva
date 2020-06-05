@@ -52,6 +52,7 @@ export const SliderContainer = styled.div`
 export const CarouselItem = styled.div`
   img {
     height: 370px;
+    margin: 0 auto;
   }
 `;
 

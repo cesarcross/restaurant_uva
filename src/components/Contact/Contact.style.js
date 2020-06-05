@@ -28,7 +28,7 @@ export const Form = styled.div`
     background: #6ccfa7;
     color: #242f62;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
     justify-content: center;
   }
 
