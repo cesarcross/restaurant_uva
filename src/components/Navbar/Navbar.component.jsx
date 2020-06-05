@@ -44,9 +44,9 @@ const NavbarDefault = ({ showCarousel, setShowCarousel }) => {
                 <span className="bar">|</span>
               </Nav.Item>
             </ScrollLink>
-            <ScrollLink to="equipe" spy={true} smooth={true} duration={1000}>
+            <ScrollLink to="eventos" spy={true} smooth={true} duration={1000}>
               <Nav.Item>
-                <button>Equipe</button>
+                <button>Eventos</button>
                 <span className="bar">|</span>
               </Nav.Item>
             </ScrollLink>

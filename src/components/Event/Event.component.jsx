@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import Slider from 'react-slick';
 
 import {
@@ -29,34 +30,36 @@ const Event = () => {
   };
 
   return (
-    <EventContainer>
-      <Title>
-        <span>Eventos</span>& Festas
-      </Title>
-      <SliderContainer>
-        <Slider {...settings}>
-          <CarouselItem>
-            <img src={event1} alt="" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src={event2} alt="" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src={event3} alt="" />
-          </CarouselItem>
-          <CarouselItem>
-            <img src={event2} alt="" />
-          </CarouselItem>
-        </Slider>
-      </SliderContainer>
-      <Button
-        href="https://www.thefork.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h3>Faça sua Reserva</h3>
-      </Button>
-    </EventContainer>
+    <Element id="eventos" name="eventos">
+      <EventContainer>
+        <Title>
+          <span>Eventos</span>& Festas
+        </Title>
+        <SliderContainer>
+          <Slider {...settings}>
+            <CarouselItem>
+              <img src={event1} alt="" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src={event2} alt="" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src={event3} alt="" />
+            </CarouselItem>
+            <CarouselItem>
+              <img src={event2} alt="" />
+            </CarouselItem>
+          </Slider>
+        </SliderContainer>
+        <Button
+          href="https://www.thefork.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Faça sua Reserva</h3>
+        </Button>
+      </EventContainer>
+    </Element>
   );
 };
 
