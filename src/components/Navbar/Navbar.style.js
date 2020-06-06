@@ -31,7 +31,7 @@ export const Navbar = styled(NavbarBootstrap)`
       display: block;
       width: 130px;
       margin-top: 5px;
-      margin-left: 20px;
+      margin-left: 45px;
     }
   }
 `;
@@ -73,12 +73,17 @@ export const Nav = styled(NavItem)`
     background: none;
 
     button {
-      color: #67267a;
-      margin: 60px 0 auto;
+      margin: 60px 0 0;
     }
+
     span {
       display: inline;
-      margin: 0 15px;
+      margin: 0 5px;
+    }
+
+    button,
+    span {
+      color: #67267a;
     }
 
     .nav-item {
@@ -87,7 +92,7 @@ export const Nav = styled(NavItem)`
 
     .last-nav-item {
       button {
-        margin-right: 20px;
+        margin-right: 40px;
       }
     }
 
@@ -107,12 +112,18 @@ export const Nav = styled(NavItem)`
       }
 
       .fb {
-        right: 70px;
+        right: 95px;
       }
 
       .inst {
-        right: 20px;
+        right: 45px;
       }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    span {
+      margin: 0 20px;
     }
   }
 `;
