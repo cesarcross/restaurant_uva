@@ -15,12 +15,14 @@ const Contact = () => (
             action="https://formsubmit.io/send/ebaf272f-0e6b-441c-8c2a-7881d541c7be"
             method="POST"
           >
-            <h3>Entre em contato :)</h3>
+            <h3>
+              <span>Entre em</span>contato :)
+            </h3>
             <input
               name="_redirect"
               type="hidden"
               id="name"
-              value="https://restaurant-quitandavegana.now.sh/"
+              value="https://restaurant-uva.now.sh"
             />
             <input name="name" type="text" id="name" placeholder="Nome" />
             <input name="email" type="email" id="email" placeholder="Email" />

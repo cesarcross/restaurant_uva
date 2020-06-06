@@ -11,10 +11,11 @@ export const FooterContainer = styled.div`
 
 export const Logo = styled.div`
   /* border: 2px solid green; */
+  width: 85px;
+  margin: 20px auto 10px;
 
   img {
-    width: 85px;
-    margin: 25px auto 10px;
+    width: 100%;
   }
 `;
 
@@ -25,4 +26,13 @@ export const Text = styled.p`
 export const Caravan = styled.p`
   /* border: 2px solid green; */
   margin: 30px auto;
+
+  a {
+    :hover,
+    :visited,
+    :link,
+    :active {
+      text-decoration: none;
+    }
+  }
 `;

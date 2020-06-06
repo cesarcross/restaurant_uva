@@ -9,45 +9,69 @@ export const WidthMax = styled.div`
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 992px) {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
 `;
 
 export const Form = styled.div`
-  margin: 30px auto;
+  margin: 30px auto 0;
+  width: 80%;
+
+  h3 {
+    text-align: left;
+    color: #fff;
+
+    span {
+      display: block;
+    }
+
+    /* @media screen and (min-width: 1200px) {
+      text-align: left;
+      margin: 0 0 60px 60px;
+    } */
+  }
 
   input,
   textarea {
     display: flex;
-    border-radius: 15px;
-    width: 80%;
+    border-radius: 10px;
+    width: 100%;
     margin: 15px auto;
-    padding: 10px;
+    padding: 20px;
     border: none;
   }
 
   input:last-of-type {
     background: #6ccfa7;
     color: #242f62;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     justify-content: center;
   }
 
-  /* border: 2px solid green; */
+  @media screen and (min-width: 992px) {
+    width: 40%;
 
-  h3 {
-    color: #fff;
+    textarea {
+      height: 255px;
+    }
 
-    @media screen and (min-width: 1200px) {
-      text-align: left;
-      margin: 0 0 60px 60px;
+    input:last-of-type {
+      /* width: 300px; */
+      width: 70%;
+      padding: 5px 100px;
+      margin-bottom: 30px;
     }
   }
 
-  @media screen and (min-width: 992px) {
-    width: 650px;
-
-    input:last-of-type {
-      width: 300px;
+  @media screen and (min-width: 1200px) {
+    h3 {
+      text-align: left;
+      margin: 0 0 60px;
     }
   }
 `;
@@ -55,27 +79,27 @@ export const Form = styled.div`
 export const Map = styled.div`
   /* border: 2px solid green; */
 
-  height: fit-content;
+  /* height: fit-content; */
+  width: 90%;
+  margin: 20px auto 40px;
 
   img {
-    margin: 20px auto;
-    width: 90%;
+    /* margin: 20px auto; */
+    width: 100%;
   }
 
   @media screen and (min-width: 768px) {
     width: 80%;
-    margin: 0 auto;
   }
 
   @media screen and (min-width: 992px) {
-    width: 550px;
+    width: 45%;
+    margin: auto;
+    margin-top: 110px;
   }
 
   @media screen and (min-width: 1200px) {
-    align-self: center;
-
-    img {
-      width: 400px;
-    }
+    width: 37%;
+    margin-top: 155px;
   }
 `;

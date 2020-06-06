@@ -5,7 +5,7 @@ export const CarouselContainer = styled.div`
 `;
 
 export const MobileImage = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   img {
     width: 100%;
@@ -51,7 +51,8 @@ export const SliderContainer = styled.div`
 
 export const CarouselItem = styled.div`
   img {
-    height: 370px;
+    /* height: 370px; */
+    width: 100%;
     margin: 0 auto;
   }
 `;
