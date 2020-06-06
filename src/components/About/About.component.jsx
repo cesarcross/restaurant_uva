@@ -60,7 +60,6 @@ const About = () => (
         </Sub1>
       </AboutDiv3>
       <AboutDiv2>
-        {/* <WidthMax> */}
         <Sub1>
           <AboutTitle2>
             <span>Família</span>& Tradição
@@ -77,7 +76,6 @@ const About = () => (
             <img src={about2} alt="" />
           </AboutImage2>
         </Sub2>
-        {/* </WidthMax> */}
       </AboutDiv2>
     </AboutContainer>
   </Element>

@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const MenuContainer = styled.div`
   /* border: 2px solid green; */
+  margin: 20px auto;
 
   @media screen and (min-width: 768px) {
     display: flex;
-    margin: 20px auto;
   }
 
   @media screen and (min-width: 1200px) {
@@ -50,6 +50,7 @@ export const MenuTitle = styled.h3`
   }
 
   @media screen and (min-width: 992px) {
+    margin-left: 45px;
     font-size: 2rem;
     line-height: 2.7rem;
   }
@@ -62,13 +63,14 @@ export const MenuText = styled.p`
 
   @media screen and (min-width: 992px) {
     width: 400px;
+    margin-left: 45px;
     margin-bottom: 20px;
   }
 `;
 
 export const DeliveryText = styled.div`
   /* border: 2px solid green; */
-  margin: auto 20px 0.5rem;
+  margin: 20px;
   width: 150px;
   text-align: left;
 
@@ -79,9 +81,7 @@ export const DeliveryText = styled.div`
   }
 
   @media screen and (min-width: 992px) {
-    h3 {
-      margin-bottom: 20px;
-    }
+    margin-left: 45px;
   }
 `;
 
@@ -91,16 +91,16 @@ export const DeliveryContainer = styled.div`
   justify-content: space-between;
 
   @media screen and (min-width: 992px) {
-    display: flex;
     width: 300px;
-    justify-content: space-between;
+    margin-left: 25px;
   }
 `;
 
 export const Ifood = styled.a`
+  margin: 10px 30px 0 0;
+
   img {
     width: 120px;
-    margin: 10px 20px 0 2px;
   }
 
   @media screen and (min-width: 992px) {
@@ -115,7 +115,7 @@ export const Whatsapp = styled.a`
 
   @media screen and (min-width: 992px) {
     img {
-      width: 130px;
+      width: 120px;
     }
   }
 `;

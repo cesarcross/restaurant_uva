@@ -61,7 +61,7 @@ const Event = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h3>Faça sua Reserva</h3>
+          <h3>Reservar para Evento</h3>
         </Button>
       </EventContainer>
     </Element>

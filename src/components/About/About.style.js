@@ -37,7 +37,9 @@ export const AboutTitle = styled.h3`
   font-size: 1.5rem;
   width: 210px;
   text-align: left;
+  margin-top: 20px;
   margin-left: 20px;
+  padding-top: 20px;
 
   span {
     display: block;
@@ -54,12 +56,14 @@ export const AboutTitle = styled.h3`
 
 export const AboutText = styled.p`
   /* border: 2px solid green; */
+  margin: 0 20px;
   color: white;
   font-size: 0.7rem;
+  text-align: left;
 
   @media screen and (min-width: 768px) {
-    margin: 0 20px;
-    text-align: left;
+    /* margin: 0 20px; */
+    /* text-align: left; */
   }
 `;
 
@@ -80,6 +84,7 @@ export const AboutImage = styled.div`
 
   img {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   @media screen and (min-width: 992px) {
@@ -124,8 +129,9 @@ export const AboutDiv2 = styled.div`
 
 export const AboutTitle2 = styled.h3`
   /* border: 2px solid green; */
+  padding-top: 20px;
+  font-size: 2rem;
   color: #67267a;
-  font-size: 1.5rem;
   width: 201px;
   text-align: left;
   margin-left: 20px;
@@ -135,8 +141,8 @@ export const AboutTitle2 = styled.h3`
   }
 
   @media screen and (min-width: 768px) {
-    margin-top: 20px;
-    font-size: 2rem;
+    /* margin-top: 20px; */
+    /* font-size: 2rem; */
   }
 
   @media screen and (min-width: 992px) {
@@ -146,12 +152,14 @@ export const AboutTitle2 = styled.h3`
 
 export const AboutText2 = styled.p`
   /* border: 2px solid green; */
+  margin: 0 20px;
+  text-align: left;
   color: white;
   font-size: 0.7rem;
 
   @media screen and (min-width: 768px) {
-    margin: 0 20px;
-    text-align: left;
+    /* margin: 0 20px; */
+    /* text-align: left; */
     font-size: 1rem;
   }
 `;

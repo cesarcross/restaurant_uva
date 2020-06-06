@@ -10,7 +10,7 @@ import {
 
 import featured1 from '../../assets/images/featured1.png';
 import featured3 from '../../assets/images/featured3.png';
-import featured5 from '../../assets/images/featured5.png';
+import featured7 from '../../assets/images/featured7.png';
 
 const Carousel = ({ showCarousel }) => {
   const settings = {
@@ -24,19 +24,19 @@ const Carousel = ({ showCarousel }) => {
   return (
     <CarouselContainer showCarousel={showCarousel}>
       <MobileImage>
-        <img src={featured1} alt="" />
+        <img src={featured3} alt="" />
       </MobileImage>
 
       <SliderContainer>
         <Slider {...settings}>
           <CarouselItem>
-            <img src={featured1} alt=""></img>
-          </CarouselItem>
-          <CarouselItem>
             <img src={featured3} alt=""></img>
           </CarouselItem>
           <CarouselItem>
-            <img src={featured5} alt=""></img>
+            <img src={featured7} alt=""></img>
+          </CarouselItem>
+          <CarouselItem>
+            <img src={featured1} alt=""></img>
           </CarouselItem>
         </Slider>
       </SliderContainer>

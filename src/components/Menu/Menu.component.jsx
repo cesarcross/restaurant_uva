@@ -15,10 +15,9 @@ import {
 } from './Menu.style';
 
 import whatsapp from '../../assets/images/whatsappicon.png';
-
 import ifood from '../../assets/images/ifood.png';
-
 import menu from '../../assets/images/menu.png';
+import menuuva from '../../assets/images/menuuva.jpg';
 
 const Menu = () => (
   <Element id="cardapio" name="cardapio">
@@ -56,7 +55,9 @@ const Menu = () => (
       </Container1>
       <Container2>
         <MenuImage>
-          <img src={menu} alt="" />
+          <a href={menuuva} target="_blank" rel="noopener noreferrer">
+            <img src={menu} alt="" />
+          </a>
         </MenuImage>
       </Container2>
     </MenuContainer>
