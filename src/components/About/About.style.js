@@ -35,6 +35,7 @@ export const AboutTitle = styled.h3`
   /* border: 2px solid green; */
   color: white;
   font-size: 1.5rem;
+  font-weight: 700;
   width: 210px;
   text-align: left;
   margin-top: 20px;
@@ -131,6 +132,7 @@ export const AboutTitle2 = styled.h3`
   /* border: 2px solid green; */
   padding-top: 20px;
   font-size: 2rem;
+  font-weight: 700;
   color: #67267a;
   width: 201px;
   text-align: left;
