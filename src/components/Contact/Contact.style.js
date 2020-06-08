@@ -22,6 +22,7 @@ export const Form = styled.div`
   width: 80%;
 
   h3 {
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: left;
     color: #fff;
