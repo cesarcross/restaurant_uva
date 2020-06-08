@@ -15,11 +15,16 @@ export const Title = styled.h3`
   width: 150px;
   color: #67267a;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 30px;
   font-size: 1.5rem;
+  font-weight: 700;
 
   span {
     display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-left: 35px;
   }
 
   @media screen and (min-width: 992px) {
@@ -29,31 +34,37 @@ export const Title = styled.h3`
 
 export const SliderContainer = styled.div`
   .slick-slider {
-    margin: 0 45px;
+    margin: 0 30px;
+
+    .slick-prev {
+      left: -20px;
+    }
+
+    .slick-next {
+      right: -20px;
+    }
+
+    .slick-prev,
+    .slick-next {
+      z-index: 1;
+    }
 
     .slick-arrow::before {
       color: #67267a;
       opacity: 1;
     }
   }
-
-  @media screen and (min-width: 768px) {
-    /* display: block; */
-  }
 `;
 
 export const CarouselItem = styled.div`
   /* border: 2px solid green; */
-
   img {
-    /* height: 255px; */
     width: 100%;
     margin: 0 auto;
   }
 
   @media screen and (min-width: 768px) {
     img {
-      /* height: auto; */
       width: 90%;
     }
   }

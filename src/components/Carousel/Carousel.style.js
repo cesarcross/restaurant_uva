@@ -23,10 +23,24 @@ export const SliderContainer = styled.div`
     display: block;
 
     .slick-slider {
-      margin: 0 45px;
+      margin: 0;
+
+      .slick-prev {
+        left: 15px;
+      }
+
+      .slick-next {
+        right: 15px;
+      }
+
+      .slick-prev,
+      .slick-next {
+        z-index: 1;
+      }
 
       .slick-arrow::before {
-        color: #67267a;
+        /* color: #67267a; */
+        color: #fff;
         opacity: 1;
       }
 

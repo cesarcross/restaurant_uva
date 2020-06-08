@@ -22,17 +22,13 @@ export const Form = styled.div`
   width: 80%;
 
   h3 {
+    font-weight: 700;
     text-align: left;
     color: #fff;
 
     span {
       display: block;
     }
-
-    /* @media screen and (min-width: 1200px) {
-      text-align: left;
-      margin: 0 0 60px 60px;
-    } */
   }
 
   input,
@@ -78,18 +74,16 @@ export const Form = styled.div`
 
 export const Map = styled.div`
   /* border: 2px solid green; */
-
-  /* height: fit-content; */
   width: 90%;
-  margin: 20px auto 40px;
+  margin: 20px 35px 40px;
 
   img {
-    /* margin: 20px auto; */
     width: 100%;
   }
 
   @media screen and (min-width: 768px) {
     width: 80%;
+    margin: 20px auto 40px;
   }
 
   @media screen and (min-width: 992px) {

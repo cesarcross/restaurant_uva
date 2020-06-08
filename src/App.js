@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './App.css';
 
+import ScrollTopArrow from './assets/ScrollArrow';
 import Navbar from './components/Navbar/Navbar.component';
 import Carousel from './components/Carousel/Carousel.component';
 import About from './components/About/About.component';
@@ -15,6 +16,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <ScrollTopArrow />
       <Navbar showCarousel={showCarousel} setShowCarousel={setShowCarousel} />
       <Carousel showCarousel={showCarousel} />
       <Menu />

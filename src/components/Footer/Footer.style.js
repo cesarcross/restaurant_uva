@@ -12,7 +12,7 @@ export const FooterContainer = styled.div`
 export const Logo = styled.div`
   /* border: 2px solid green; */
   width: 85px;
-  margin: 20px auto 10px;
+  margin: 40px auto 10px;
 
   img {
     width: 100%;
