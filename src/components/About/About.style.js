@@ -61,11 +61,6 @@ export const AboutText = styled.p`
   color: white;
   font-size: 0.7rem;
   text-align: left;
-
-  @media screen and (min-width: 768px) {
-    /* margin: 0 20px; */
-    /* text-align: left; */
-  }
 `;
 
 export const Sub2 = styled.div`
@@ -131,20 +126,15 @@ export const AboutDiv2 = styled.div`
 export const AboutTitle2 = styled.h3`
   /* border: 2px solid green; */
   padding-top: 20px;
-  font-size: 2rem;
-  font-weight: 700;
   color: #67267a;
+  font-size: 1.5rem;
+  font-weight: 700;
   width: 201px;
   text-align: left;
   margin-left: 20px;
 
   span {
     display: block;
-  }
-
-  @media screen and (min-width: 768px) {
-    /* margin-top: 20px; */
-    /* font-size: 2rem; */
   }
 
   @media screen and (min-width: 992px) {
@@ -191,10 +181,6 @@ export const AboutDiv3 = styled.div`
 
   @media screen and (min-width: 768px) {
     display: flex;
-
-    h3 {
-      font-size: 2rem;
-    }
 
     p {
       font-size: 1rem;

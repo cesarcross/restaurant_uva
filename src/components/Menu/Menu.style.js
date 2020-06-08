@@ -51,8 +51,6 @@ export const MenuTitle = styled.h3`
 
   @media screen and (min-width: 992px) {
     margin-left: 45px;
-    font-size: 2rem;
-    line-height: 2.7rem;
   }
 `;
 
