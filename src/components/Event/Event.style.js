@@ -23,6 +23,10 @@ export const Title = styled.h3`
     display: block;
   }
 
+  @media screen and (min-width: 768px) {
+    margin-left: 35px;
+  }
+
   @media screen and (min-width: 992px) {
     margin-bottom: 20px;
   }
@@ -50,24 +54,17 @@ export const SliderContainer = styled.div`
       opacity: 1;
     }
   }
-
-  @media screen and (min-width: 768px) {
-    /* display: block; */
-  }
 `;
 
 export const CarouselItem = styled.div`
   /* border: 2px solid green; */
-
   img {
-    /* height: 255px; */
     width: 100%;
     margin: 0 auto;
   }
 
   @media screen and (min-width: 768px) {
     img {
-      /* height: auto; */
       width: 90%;
     }
   }
