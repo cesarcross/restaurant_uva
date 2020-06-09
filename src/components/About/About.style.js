@@ -150,8 +150,6 @@ export const AboutText2 = styled.p`
   font-size: 0.7rem;
 
   @media screen and (min-width: 768px) {
-    /* margin: 0 20px; */
-    /* text-align: left; */
     font-size: 1rem;
   }
 `;

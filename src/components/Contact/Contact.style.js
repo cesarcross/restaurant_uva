@@ -7,7 +7,7 @@ export const ContactContainer = styled.div`
 
 export const WidthMax = styled.div`
   display: flex;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   flex-wrap: wrap;
 
@@ -30,6 +30,10 @@ export const Form = styled.div`
     span {
       display: block;
     }
+  }
+
+  textarea {
+    resize: none;
   }
 
   input,
@@ -58,7 +62,6 @@ export const Form = styled.div`
     }
 
     input:last-of-type {
-      /* width: 300px; */
       width: 70%;
       padding: 5px 100px;
       margin-bottom: 30px;
@@ -66,6 +69,9 @@ export const Form = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
+    width: 40%;
+    margin-right: 145px;
+
     h3 {
       text-align: left;
       margin: 0 0 60px;
@@ -94,7 +100,8 @@ export const Map = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    width: 37%;
+    width: 35%;
     margin-top: 155px;
+    margin-left: 155px;
   }
 `;

@@ -2,11 +2,8 @@ import styled from 'styled-components';
 
 export const EventContainer = styled.div`
   /* border: 2px solid green; */
-
-  @media screen and (min-width: 768px) {
-    width: 80%;
-    margin: 30px auto;
-  }
+  max-width: 1300px;
+  margin: 0 auto;
 `;
 
 export const Title = styled.h3`
@@ -29,10 +26,17 @@ export const Title = styled.h3`
 
   @media screen and (min-width: 992px) {
     margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 140px;
   }
 `;
 
 export const SliderContainer = styled.div`
+  margin: 0 auto;
+
   .slick-slider {
     margin: 0 30px;
 
@@ -53,6 +57,10 @@ export const SliderContainer = styled.div`
       color: #67267a;
       opacity: 1;
     }
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 85%;
   }
 `;
 
@@ -78,7 +86,7 @@ export const Button = styled.a`
     text-decoration: none;
   }
 
-  h3 {
+  button {
     background: #6ccfa7;
     color: #242f62;
     font-size: 1.5rem;
@@ -87,13 +95,26 @@ export const Button = styled.a`
     width: 80%;
     margin: 20px auto;
     padding: 10px;
+    border: none;
     border-radius: 15px;
   }
 
+  @media screen and (min-width: 768px) {
+    button {
+      width: 37%;
+    }
+  }
+
   @media screen and (min-width: 992px) {
-    h3 {
+    button {
       font-size: 1.2rem;
-      width: 40%;
+      width: 23%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    button {
+      width: 21%;
     }
   }
 `;

@@ -2,14 +2,11 @@ import styled from 'styled-components';
 
 export const MenuContainer = styled.div`
   /* border: 2px solid green; */
+  max-width: 1300px;
   margin: 20px auto;
 
   @media screen and (min-width: 768px) {
     display: flex;
-  }
-
-  @media screen and (min-width: 1200px) {
-    max-width: 1200px;
   }
 `;
 
