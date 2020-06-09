@@ -16,8 +16,6 @@ import event3 from '../../assets/images/event3.png';
 import event4 from '../../assets/images/event4.png';
 import event5 from '../../assets/images/event5.png';
 
-// import eventbutton from '../../assets/images/eventbutton.png';
-
 const Event = () => {
   const minWidth = window.matchMedia('(min-width: 768px)');
   const WidthChange = (minWidth) => (minWidth.matches ? 3 : 1);
@@ -61,7 +59,7 @@ const Event = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h3>Reservar para Evento</h3>
+          <button>Reservar para Evento</button>
         </Button>
       </EventContainer>
     </Element>
