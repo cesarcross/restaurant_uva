@@ -5,6 +5,7 @@ export const NavbarContainer = styled.div`
   /* border: 2px solid green; */
   max-width: 1300px;
   margin: 0 auto;
+  margin-bottom: 10px;
 `;
 
 export const Navbar = styled(NavbarBootstrap)`

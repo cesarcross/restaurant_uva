@@ -1,13 +1,23 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 
-import { ContactContainer, Form, Map, WidthMax } from './Contact.style';
+import {
+  ContactContainer,
+  Form,
+  Map,
+  TitleWidth,
+  WidthMax,
+  FormTitle,
+} from './Contact.style';
 
 import map from '../../assets/images/map.png';
 
 const Contact = () => (
   <Element id="contato" name="contato">
     <ContactContainer>
+      <TitleWidth>
+        <FormTitle>Entre em contato :)</FormTitle>
+      </TitleWidth>
       <WidthMax>
         <Form>
           <form
@@ -15,9 +25,6 @@ const Contact = () => (
             action="https://formsubmit.io/send/ebaf272f-0e6b-441c-8c2a-7881d541c7be"
             method="POST"
           >
-            <h3>
-              <span>Entre em</span>contato :)
-            </h3>
             <input
               name="_redirect"
               type="hidden"

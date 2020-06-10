@@ -48,6 +48,8 @@ export const MenuTitle = styled.h3`
 
   @media screen and (min-width: 992px) {
     margin-left: 45px;
+    font-size: 2rem;
+    font-weight: 500;
   }
 `;
 
