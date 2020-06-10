@@ -4,6 +4,10 @@ export const EventContainer = styled.div`
   /* border: 2px solid green; */
   max-width: 1300px;
   margin: 0 auto;
+
+  @media screen and (min-width: 992px) {
+    margin: 60px auto;
+  }
 `;
 
 export const Title = styled.h3`
@@ -14,7 +18,7 @@ export const Title = styled.h3`
   text-align: left;
   margin-left: 30px;
   font-size: 1.5rem;
-  font-weight: 700;
+  /* font-weight: 700; */
 
   span {
     display: block;
@@ -27,10 +31,14 @@ export const Title = styled.h3`
   @media screen and (min-width: 992px) {
     margin-bottom: 20px;
     margin-left: 50px;
+    font-size: 2rem;
+    font-weight: 500;
   }
 
   @media screen and (min-width: 1200px) {
     margin-left: 140px;
+
+    font-size: 2rem;
   }
 `;
 

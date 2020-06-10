@@ -51,7 +51,8 @@ export const AboutTitle = styled.h3`
   }
 
   @media screen and (min-width: 992px) {
-    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 500;
   }
 `;
 
@@ -139,6 +140,8 @@ export const AboutTitle2 = styled.h3`
 
   @media screen and (min-width: 992px) {
     margin-bottom: 8px;
+    font-size: 2rem;
+    font-weight: 500;
   }
 `;
 
